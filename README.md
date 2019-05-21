@@ -5,10 +5,10 @@
 1. Clone this repository.
 2. Navigate to `~/Library/Developer/Xcode/Templates/File Templates`.
 3. Create a new directory inside `File Templates` called `Custom` or similar.
-4. Paste the `.xctemplate` directories inside the `Custom` folder.
+4. Paste the `.xctemplate` directories inside the newly created `Custom` folder.
 
 ### How To Use
-1. In Xcode create a new file `File > New > File` or `⌘ + N`.
+1. In Xcode create a new file - `File > New > File` or `⌘ + N`.
 2. Scroll down and you should see the new `Custom` section.
 3. Double click on the relevant template and follow the instructions.
 
