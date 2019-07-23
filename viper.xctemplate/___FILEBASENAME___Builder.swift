@@ -9,7 +9,7 @@
 import UIKit
 
 final class ___VARIABLE_productName:identifier___Builder {
-    static func create(_ delegate: ___VARIABLE_productName:identifier___DelegateProtocol?, input: ___VARIABLE_productName:identifier___InputProtocol, viewModel: ___VARIABLE_productName:identifier___ViewModelProtocol = ___VARIABLE_productName:identifier___ViewModel(), output: ___VARIABLE_productName:identifier___OutputProtocol = ___VARIABLE_productName:identifier___Output()) -> UIViewController {
+    static func create(_ delegate: ___VARIABLE_productName:identifier___DelegateProtocol?, input: ___VARIABLE_productName:identifier___InputProtocol) -> UIViewController {
         
         let storyboard = UIStoryboard(storyboard: )
         let view: ___VARIABLE_productName:identifier___ViewController = storyboard.instantiateViewController()
@@ -18,8 +18,6 @@ final class ___VARIABLE_productName:identifier___Builder {
         let presenter = ___VARIABLE_productName:identifier___Presenter()
         
         view.input = input
-        view.viewModel = viewModel
-        view.output = output
         view.presenter = presenter
         view.delegate = delegate
         presenter.view = view
