@@ -2,10 +2,7 @@
 
 ### Installation Steps
 
-1. Clone this repository.
-2. Navigate to `~/Library/Developer/Xcode/Templates/File Templates`.
-3. Create a new directory inside `File Templates` called `Custom` or similar.
-4. Paste the `.xctemplate` directories inside the newly created `Custom` folder.
+1. Clone this repository into `~/Library/Developer/Xcode/Templates/File Templates`.
 
 ### How To Use
 1. In Xcode create a new file - `File > New > File` or `⌘ + N`.
@@ -17,4 +14,4 @@
 
 ### Provided Templates
 
-> `viper.xctemplate`
+> `Viper.xctemplate`
