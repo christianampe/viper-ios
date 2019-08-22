@@ -13,7 +13,7 @@
 * [VIPER](https://medium.com/@smalam119/viper-design-pattern-for-ios-application-development-7a9703902af6) - An excellent explanation of the VIPER design pattern.
 
 ### Provided Templates
-* [`Design Pattern`](https://github.com/christianampe/xcode-file-templates/tree/master/Design%20Pattern)
-    * [Viper.xctemplate](https://github.com/christianampe/xcode-file-templates/tree/master/Design%20Pattern/Viper.xctemplate)
-* [`Vapor`](https://github.com/christianampe/xcode-file-templates/tree/master/Vapor
-    * [Resource.xctemplate](https://github.com/christianampe/xcode-file-templates/tree/master/Vapor/Resource.xctemplate)
+* [Design Pattern](https://github.com/christianampe/xcode-file-templates/tree/master/Design%20Pattern)
+    - [`Viper.xctemplate`](https://github.com/christianampe/xcode-file-templates/tree/master/Design%20Pattern/Viper.xctemplate)
+* [Vapor](https://github.com/christianampe/xcode-file-templates/tree/master/Vapor)
+    - [`Resource.xctemplate`](https://github.com/christianampe/xcode-file-templates/tree/master/Vapor/Resource.xctemplate)
