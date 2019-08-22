@@ -14,6 +14,6 @@
 
 ### Provided Templates
 * [`Design Pattern`](https://github.com/christianampe/xcode-file-templates/tree/master/Design%20Pattern)
-** [Viper.xctemplate](https://github.com/christianampe/xcode-file-templates/tree/master/Design%20Pattern/Viper.xctemplate)
+    * [Viper.xctemplate](https://github.com/christianampe/xcode-file-templates/tree/master/Design%20Pattern/Viper.xctemplate)
 * [`Vapor`](https://github.com/christianampe/xcode-file-templates/tree/master/Vapor
-** [Resource.xctemplate](https://github.com/christianampe/xcode-file-templates/tree/master/Vapor/Resource.xctemplate)
+    * [Resource.xctemplate](https://github.com/christianampe/xcode-file-templates/tree/master/Vapor/Resource.xctemplate)
