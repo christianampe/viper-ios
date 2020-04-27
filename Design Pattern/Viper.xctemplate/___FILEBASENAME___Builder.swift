@@ -1,25 +1,18 @@
 //
-//  Created ___FULLUSERNAME___ on ___DATE___.
+// ___COPYRIGHT___
 //
 
-import UIKit
+import UIKit.UIViewController
 
 final class ___VARIABLE_productName:identifier___Builder {
-    static func create(_ delegate: ___VARIABLE_productName:identifier___DelegateProtocol?, input: ___VARIABLE_productName:identifier___InputProtocol) -> UIViewController {
+    static func create(_ delegate: ___VARIABLE_productName:identifier___Delegate? = nil) -> UIViewController {
+        let view = ___VARIABLE_productName:identifier___View()
+        let router = ___VARIABLE_productName:identifier___Router(view, delegate)
+        let formatter = ___VARIABLE_productName:identifier___Formatter(view)
+        let interactor = ___VARIABLE_productName:identifier___Interactor(formatter)
+        let handler = ___VARIABLE_productName:identifier___Handler(router, interactor)
         
-        let view = ___VARIABLE_productName:identifier___ViewController()
-        let interactor = ___VARIABLE_productName:identifier___Interactor()
-        let router = ___VARIABLE_productName:identifier___Router()
-        let presenter = ___VARIABLE_productName:identifier___Presenter()
-        
-        view.input = input
-        view.presenter = presenter
-        view.delegate = delegate
-        presenter.view = view
-        presenter.interactor = interactor
-        presenter.router = router
-        interactor.presenter = presenter
-        router.viewController = view
+        view.setReference(toHandler: handler)
         
         return view
     }
